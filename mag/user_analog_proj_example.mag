@@ -1,18 +1,32 @@
 magic
-tech $PDK
+tech sky130A
 magscale 1 2
-timestamp 1639841760
-<< error_p >>
-rect 5036 7870 5051 7898
-rect 5008 7676 5023 7870
-rect 20366 7862 20381 7890
-rect 20394 7668 20409 7862
-use example_por  example_por_1
-timestamp 1639841760
-transform 1 0 14132 0 1 -22
-box 0 0 11344 8338
-use example_por  example_por_0
-timestamp 1639841760
-transform -1 0 11285 0 1 -14
-box 0 0 11344 8338
+timestamp 1698961611
+use cafeina_top_level  cafeina_top_level_0
+timestamp 1698888790
+transform 1 0 10 0 1 9
+box 217294 450753 583581 703284
+use dpga_wires_flat  dpga_wires_flat_0
+timestamp 1698866215
+transform 1 0 0 0 1 0
+box -800 377990 195000 704800
+use gme_cefet_top_level  gme_cefet_top_level_0
+timestamp 1698860844
+transform 1 0 78 0 1 -9
+box 326 15091 583606 406686
+<< labels >>
+flabel metal3 s 165594 702300 170594 704800 0 FreeSans 1920 180 0 0 io_analog[6]
+port 49 nsew signal bidirectional
+flabel metal3 s 217294 702300 222294 704800 0 FreeSans 1920 180 0 0 io_analog[5]
+port 48 nsew signal bidirectional
+flabel metal3 s 318994 702300 323994 704800 0 FreeSans 1920 180 0 0 io_analog[4]
+port 47 nsew signal bidirectional
+flabel metal3 s 175894 702300 180894 704800 0 FreeSans 1920 180 0 0 io_analog[6]
+port 43 nsew signal bidirectional
+flabel metal3 s 227594 702300 232594 704800 0 FreeSans 1920 180 0 0 io_analog[5]
+port 42 nsew signal bidirectional
+flabel metal3 s 329294 702300 334294 704800 0 FreeSans 1920 180 0 0 io_analog[4]
+port 41 nsew signal bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 584000 704000
 << end >>
