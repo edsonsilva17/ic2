@@ -1,14 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1699054617
-<< metal3 >>
-rect 165594 702300 170594 704800
-rect 175894 702300 180894 704800
-rect 217294 702300 222294 704800
-rect 227594 702300 232594 704800
-rect 318994 702300 323994 704800
-rect 329294 702300 334294 704800
+timestamp 1699055702
 use cafeina_top_level  cafeina_top_level_0
 timestamp 1699054617
 transform 1 0 0 0 1 9
@@ -17,19 +10,6 @@ use gme_cefet_top_level  gme_cefet_top_level_0
 timestamp 1699054617
 transform 1 0 78 0 1 -9
 box 326 15091 583606 406686
-<< labels >>
-flabel metal3 s 329294 702300 334294 704800 0 FreeSans 2400 180 0 0 io_analog[4]
-port 1 nsew
-flabel metal3 s 227594 702300 232594 704800 0 FreeSans 2400 180 0 0 io_analog[5]
-port 2 nsew
-flabel metal3 s 175894 702300 180894 704800 0 FreeSans 2400 180 0 0 io_analog[6]
-port 3 nsew
-flabel metal3 s 318994 702300 323994 704800 0 FreeSans 2400 180 0 0 io_analog[4]
-port 1 nsew
-flabel metal3 s 217294 702300 222294 704800 0 FreeSans 2400 180 0 0 io_analog[5]
-port 2 nsew
-flabel metal3 s 165594 702300 170594 704800 0 FreeSans 2400 180 0 0 io_analog[6]
-port 3 nsew
 << properties >>
 string FIXED_BBOX 0 0 584000 704000
 << end >>
